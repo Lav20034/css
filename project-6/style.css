@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) , url(./img//university.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+
+.img{
+
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    left: 100px;
+    top: 28px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.link{
+    
+    text-align: right;
+}
+
+.link ul li{
+    
+    
+    display: inline-block;
+    
+    padding: 8px 12px;
+    position: relative;
+    left: 900px;
+    
+}
+
+.link ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+}
+
+
+.link ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:red;
+    display: block;
+    margin: auto;
+    transition: all 0.5s linear;
+
+    
+}
+
+.link ul li:hover::after{
+    width: 100%;
+}
+
+.text{
+    /* text-align: center; */
+    align-items: center;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+
+
+}
+
+h1{
+    font-size: 42px;
+    /* align-items: center; */
+    margin-left: 100px;
+}
+
+p{
+    font-size: 16px;
+    /* position: relative; */
+    /* right: 100px; */
+}
+
+.tyz{
+     position: relative;
+    right: 100px;
+}
+
+
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7px;
+    position: relative;
+    top: 16px;
+    left: 25%;
+}
+
+.btn:hover{
+    border: 2px solid red;
+    background: red;
+    transition: all 0.5s linear;
+}
+ 
+
+.course{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.top{
+    font-size: 18px;
+    color: #321223;
+
+   
+}
+
+.hop{
+    margin-top: 5%;
+    display: flex;
+   
+    justify-content: space-around;
+    
+}
+
+.middle{
+    background: #bbc273;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    flex-basis: 31%;
+    transition: all 0.5s  linear;
+}
+
+.middle:hover{
+    box-shadow: 0 0 20px 0px;
+}
+
+
+.campus{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.creat{
+    /* flex-basis:32%; */
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.creat img{
+    width: 100%;
+    transition: all 0.5s linear;
+}
+
+.layer{
+    
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s linear;
+    
+}
+
+.layer:hover{
+    background: rgba(218, 132, 132, 0.7);
+    /* transform: scale(1,2); */
+    /* transform: 0.5s; */
+    /* position: absolute; */
+    /* bottom: 30%; */
+
+}
+
+
+
+.facilities{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+
+}
+
+.foo{
+    flex-basis:32%;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+.foo img{
+    width: 100%;
+}
+
+
+.look{
+
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    /* background: #658894; */
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    transition: all 0.5s linear;
+    /* flex-basis: 50%; */
+}
+
+.container:hover{
+    background:#658894; ;
+}
+
+.container img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50px;
+}
+
+
+
+.cta{
+    margin:auto;
+    width: 80%;
+    background-image: url(./img/banner2.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px ;
+}
+
+.cta h2{
+    color: white;
+    margin-bottom: 35px;
+}
+
+.bol{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 7px;
+    position: relative;
+    top: 16px;
+    right: 4px;
+
+}
+
+.bol:hover{
+    border: 2px solid red;
+    background: red;
+    transition: all 0.5s linear;
+
+}
+.xyz{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 25px;
+}
+
+.xyz h3{
+    font-size: 24px;
+    
+}
+
+.xyz p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.i-con{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+.i-con i{
+    padding-left: 12px;
+    font-size: 18px;
+    color: red;
+}
+
