@@ -1,0 +1,53 @@
+
+
+body{
+    background:linear-gradient(#433D8B,#4B70F5,#76ABAE);
+    /* background-color:#A67B5B; */
+}
+
+
+.chessboard{
+    /* border: 2PX solid #000; */
+    height: 666px;
+    width: 666px;
+    /* background-color:white; */
+    margin: auto;
+    /* border-radius: 4px; */
+}
+
+
+.box{
+
+    height: 80px;
+    width: 80px;
+    /* border: 2px solid #000; */
+    float: left;
+    /* border-radius: 10px; */
+
+    
+}
+
+h1{
+    text-align: center;
+}
+
+.i-con{
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+}
+
+.i-com{
+    font-size: 40px;
+    color:black;
+    padding: 20px;
+}
+
+
+.white{
+    background-color: #914F1E;
+}
+
+.black{
+    background-color: #DEAC80;
+}

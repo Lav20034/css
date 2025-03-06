@@ -1,0 +1,50 @@
+
+
+   
+    div {
+        border: 2px solid black;
+        padding: 10px;
+    }
+
+    p {
+        margin: 5px ;
+    }
+
+    div p {
+        color: blue;
+    }
+
+    div > p {
+        font-weight: bold;
+    }
+
+    div > p:first-child {
+        color: red;
+    }
+
+    div > p:last-child {
+        color: green;
+    }
+
+    div > p:nth-child(2) {
+        color: orange;
+    }
+
+    div > p:nth-last-child(1) {
+        color: purple;
+    }
+
+    p::first-letter {
+        font-size: 40px;
+        color: crimson;
+    }
+
+    p::first-line {
+        font-weight: bold;
+    }
+
+    ::selection {
+        background: yellow;
+        color: black;
+    }
+
